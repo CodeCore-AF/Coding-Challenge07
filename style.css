@@ -12,6 +12,20 @@ h1#title1 {
   background-color:#FFF4A3;
 }
 
+main{
+  width: 100%;
+  background-color:#D9EEE1;
+  justify-content: end;
+}
+
+#heroCard {
+  margin:auto;
+  width: 75%;
+  aspect-ratio: 16/9;
+  align-self: center;
+  background-color:#FFC0C7;
+}
+
 /*Navigation bars style method sourced from W3Schools*/
 ul {
   list-style-type: none;
@@ -44,13 +58,9 @@ div {
 div.card:hover {
   box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
   border-radius: 8px;
-  text-align: center;
 }
 
 /*H2 style to keep card titles center*/
-h2 {
-  
-}
 
 /*Footer styles*/
 footer {
