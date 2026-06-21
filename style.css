@@ -22,3 +22,24 @@ li a {
 li a:hover {
   background-color: #111111;
 }
+
+/*div styles for floating cards.*/
+div {
+  text-align: center;
+}
+div.card:hover {
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/*H2 style to keep card titles center*/
+h2 {
+  
+}
+
+/*Footer styles*/
+footer {
+  background-color: #333333;
+
+}
