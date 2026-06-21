@@ -1,3 +1,16 @@
+/*importing custom font style to match Buy and Large*/ 
+@font-face {
+  font-family: Protonema; /* set name */
+  src: url(Protonema.ttf); /* url of the font */
+}
+
+/*H1 style to style main title*/
+h1#title1 {
+  font-family: Protonema;
+  font-size: 60px;
+  text-align: center;
+}
+
 /*Navigation bars style method sourced from W3Schools*/
 ul {
   list-style-type: none;
