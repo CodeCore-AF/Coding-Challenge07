@@ -20,10 +20,22 @@ main{
 
 #heroCard {
   margin:auto;
-  width: 75%;
+  width: 65%;
   aspect-ratio: 16/9;
   align-self: center;
+  padding: 5%;
   background-color:#FFC0C7;
+}
+
+#heroDesc {
+  text-align: end;
+}
+
+#heroButton{
+  width: 15%;
+  aspect-ratio: 16/9;
+  margin-right: 60%;
+  margin-top: 10%;
 }
 
 /*Navigation bars style method sourced from W3Schools*/
