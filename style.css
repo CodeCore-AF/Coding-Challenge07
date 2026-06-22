@@ -3,6 +3,10 @@
   font-family: Protonema; /* set name */
   src: url(Protonema.ttf); /* url of the font */
 }
+body {
+  font-family: Protonema;
+  font-size: 20px;
+}
 
 /*H1 style to style main title*/
 h1#title1 {
@@ -13,6 +17,7 @@ h1#title1 {
 }
 
 main{
+  margin-top: 5%;
   width: 100%;
   background-color:#D9EEE1;
   justify-content: end;
@@ -21,6 +26,7 @@ main{
 #heroCard {
   margin:auto;
   width: 65%;
+  max-width: 1000px;
   aspect-ratio: 16/9;
   align-self: center;
   padding: 5%;
@@ -64,11 +70,20 @@ li a:hover {
 }
 
 /*div styles for floating cards.*/
-div {
-  text-align: center;
+.cardHolder{
+  width: 100%;
+  flex-wrap: nowrap;
+  overflow: auto;
+  margin-top: 10%;
 }
-div.card:hover {
-  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+.cardHolder div {
+  text-align: center;
+  width: 30%;
+  float:left;
+  margin: 1.5%;
+}
+div.cardHolder div:hover {
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.20);
   border-radius: 8px;
 }
 
@@ -77,5 +92,5 @@ div.card:hover {
 /*Footer styles*/
 footer {
   background-color: #333333;
-
+  color: #FFFFFF;
 }
