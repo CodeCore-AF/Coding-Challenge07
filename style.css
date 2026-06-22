@@ -102,6 +102,10 @@ div.cardHolder div:hover {
   background-color: var(--primary-border-color);
 }
 
+img {
+  width: 80%;
+}
+
 /*form styles*/
 #CTAForm {
   background-color: var(--primary-bg-color);
