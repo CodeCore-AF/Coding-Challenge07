@@ -1,6 +1,6 @@
 //Use form input and DOM API to 
 //dynamically update CTA (AKA Call To Action) based on user input
-//INCOMPLETE
+//COMPLETE
 
 //event listener to pull inputs from CTA form.
 document.getElementById("CTAForm").addEventListener("submit", (event)=>{

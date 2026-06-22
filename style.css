@@ -1,3 +1,10 @@
+/* Declaring Color variables to allow for consistent page style*/
+:root{
+  --primary-bg-color:#D9EEE1;
+  --primary-border-color: #ee220d;
+  --accent-color: #0042a9;
+}
+
 /*importing custom font style to match Buy and Large*/ 
 @font-face {
   font-family: Protonema; /* set name */
@@ -13,13 +20,12 @@ h1#title1 {
   font-family: Protonema;
   font-size: 60px;
   text-align: center;
-  background-color:#FFF4A3;
+  background-color: var(--primary-bg-color);
 }
 
 main{
   margin-top: 5%;
   width: 100%;
-  background-color:#D9EEE1;
   justify-content: end;
 }
 
@@ -30,7 +36,7 @@ main{
   aspect-ratio: 16/9;
   align-self: center;
   padding: 5%;
-  background-color:#FFC0C7;
+  background-color: var(--accent-color);
 }
 
 #heroDesc {
@@ -86,8 +92,20 @@ div.cardHolder div:hover {
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.20);
   border-radius: 8px;
 }
+#card1{
+  background-color: var(--primary-border-color);
+}
+#card2{
+  background-color: var(--accent-color);
+}
+#card3{
+  background-color: var(--primary-border-color);
+}
 
-/*H2 style to keep card titles center*/
+/*form styles*/
+#CTAForm {
+  background-color: var(--primary-bg-color);
+}
 
 /*Footer styles*/
 footer {
